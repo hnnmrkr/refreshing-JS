@@ -16,10 +16,12 @@ numbers.forEach((number) => {
 })
 
 // Objekt
+/*
 const person = {
     name: 'Kertu',
     age : 25
 }
+*/
 
 // Toob objekti väärtused eraldi
 console.log(person)
@@ -44,3 +46,15 @@ const callMe = name => {
 // Lühemalt saab ka nii
 const returnMe = name => name
 console.log(returnMe('Hanna'))
+
+//IMPORT
+import person from "./person.js";
+import {data} from "./utils.js"
+import {cleanOutput as clean} from "./utils.js";
+
+// IMPORT terve fail uue nimega
+import * as utils from "./utils.js"
+
+console.log(data)
+clean()
+
