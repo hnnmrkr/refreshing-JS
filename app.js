@@ -25,7 +25,7 @@ console.log(person)
 console.log(person.name)
 console.log(person.age)
 
-// Funktsioon cons'ina
+// Funktsioon const'ina
 const multiply = (number) => {
     return number * number
 }
