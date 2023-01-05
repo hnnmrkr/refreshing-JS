@@ -111,8 +111,31 @@ const newPerson = {
 console.log(person)
 console.log(newPerson)*/
 
+/*
 const filter = (...args) => {
     return args.filter(el => el === 1)
 }
 
-console.log(filter(1,2,3,1))
+console.log(filter(1,2,3,1))*/
+
+// PAKKIMINE
+const numbers = [1, 2, 3]
+const [a, c, b] = numbers
+
+const person = {
+    name : 'Kertu',
+    age : 25
+}
+
+const {name} = person
+const {age} = person
+
+console.log(name)
+console.log(age)
+
+// kasutamine funktsioonis
+const printName = ({name}) => {
+    console.log(name)
+}
+
+printName(person)
