@@ -1,3 +1,4 @@
+/*
 // CONST & LET
 // length (mitu elementi arrays on)
 const numbers = [1,2,3]
@@ -16,12 +17,12 @@ numbers.forEach((number) => {
 })
 
 // Objekt
-/*
+/!*
 const person = {
     name: 'Kertu',
     age : 25
 }
-*/
+*!/
 
 // Toob objekti väärtused eraldi
 console.log(person)
@@ -58,3 +59,28 @@ import * as utils from "./utils.js"
 console.log(data)
 clean()
 
+*/
+
+//CLASSES
+/*
+class Human {
+    gender = 'male'
+
+    printGender(){
+        console.log(this.gender)
+    }
+}
+
+class Person extends Human {
+    constructor() {
+        super();
+    }
+    printName(){
+        console.log(this.name)
+    }
+}
+
+const person = new Person()
+console.log(person)
+person.printName()
+*/
