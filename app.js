@@ -118,6 +118,7 @@ const filter = (...args) => {
 
 console.log(filter(1,2,3,1))*/
 
+/*
 // PAKKIMINE
 const numbers = [1, 2, 3]
 const [a, c, b] = numbers
@@ -138,4 +139,25 @@ const printName = ({name}) => {
     console.log(name)
 }
 
-printName(person)
+printName(person)*/
+
+/*
+// MAP FUNKTSIOON
+// Tekitab uue array kasutades vana arrayd
+const array1 = [1, 4, 8, 9]
+const map1 = array1.map(x => x * 2);
+
+console.log(map1)*/
+
+/*
+// FIND FUNKTSIOON
+// leiab esimese true väärtusega osa (antud juhul esimene suurem arv kui 10 on 12)
+const array = [5, 12, 8, 130, 44]
+const found = array.find(element => element > 10)
+
+console.log(found)*/
+
+// reduce
+// concat()
+// slice()
+// splice()
