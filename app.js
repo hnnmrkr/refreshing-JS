@@ -84,3 +84,35 @@ const person = new Person()
 console.log(person)
 person.printName()
 */
+
+/*
+const numbers = [1, 2, 3]
+console.log(numbers)
+
+// PUSH lisab kõige lõppu
+numbers.push(4)
+console.log(numbers)
+
+// Sama sisuga massiivide loomiseks
+const newNumbers = [...numbers, 4]
+console.log(newNumbers)*/
+
+/*
+const person = {
+    name: 'Kertu'
+}
+
+//Kopeerib eelmise sisu kasutades kolme punkti ja saab lisada, mida iganes soovid
+const newPerson = {
+    ...person,
+    age : 25
+}
+
+console.log(person)
+console.log(newPerson)*/
+
+const filter = (...args) => {
+    return args.filter(el => el === 1)
+}
+
+console.log(filter(1,2,3,1))
